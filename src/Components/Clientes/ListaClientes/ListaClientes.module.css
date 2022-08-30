@@ -1,0 +1,20 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 35vw;
+    height: 80vh;
+    gap: 2rem;
+    border-radius: 1rem;
+}
