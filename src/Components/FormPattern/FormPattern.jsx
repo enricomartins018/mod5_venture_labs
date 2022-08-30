@@ -21,16 +21,7 @@ const Form = () => {
 
     return (
         <div className={S.form}>
-            <div className={S.progressbar}></div>
-            <div className={S.formContainer}></div>
-            <div className={S.FormInitial}></div>
-            <div className={S.header}>
-                <h1>{FormTitles[page]}</h1>
-            </div>
-            <div className={S.body}>{PageDisplay()}</div>
-            <div className={S.footer}></div>
-            <div>
-                <button className={S.btnPattern} type="submit"
+              <button className={S.btnPattern} type="submit"
                     disabled={page == 0}
                     onClick={() => {
                         setPage((currPage) => currPage - 1);
@@ -38,6 +29,8 @@ const Form = () => {
                 >
                     Anterior
                 </button>
+            {PageDisplay()}
+            <div>
                 <button className={S.btnPattern} type="submit"
                     disabled={page == FormTitles.length - 1}
                     onClick={() => {
