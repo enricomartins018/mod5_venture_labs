@@ -6,7 +6,7 @@ const FormFinal = () => {
     <div>
       <form className={S.form}>
         <div className={S.containerForm}>
-          <h4 className={S.titleForm}>Insira seus dados pessoais</h4>
+          <h4 className={S.titleForm}>Dados adicionais</h4>
           <div className={S.cep}>
             <label>Data de Nascimento</label>
             <input className={S.inputPattern} type="date" name="date" id="date" />
