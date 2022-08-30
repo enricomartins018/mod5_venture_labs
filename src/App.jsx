@@ -1,16 +1,11 @@
 import './App.css'
-import Header from './Components/Header/Header'
-import FormPattern from './Components/FormPattern/FormPattern'
+import React from 'react'
+import Router from './router'
 
 function App() {
 
   return (
-    <div className="App">
-      <div className="containerHeaderMain">
-        <Header/>
-        <FormPattern/>
-      </div>
-    </div>
+    <Router/>
   )
 }
 
