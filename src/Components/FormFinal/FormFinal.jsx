@@ -19,6 +19,7 @@ const FormFinal = () => {
             <label>Renda Mensal</label>
             <input className={S.inputPattern} type="text" name="text" id="rendaMensal" />
           </div>
+          <button className={S.btnPattern} onClick={""} id={""} type="submit">Salvar</button>
         </div>
       </form>
     </div>
