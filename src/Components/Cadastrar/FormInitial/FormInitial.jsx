@@ -6,7 +6,7 @@ const FormInitial = () => {
     <div>
       <form className={S.form}>
         <div className={S.containerForm}>
-          <h4 className={S.titleForm}>Faça seu cadastro</h4>
+          <h4 className={S.titleForm}>Dados pessoais</h4>
           <div className={S.nome}>
             <label>Nome</label>
             <input className={S.inputPattern} type="text" name="name" id="" />
