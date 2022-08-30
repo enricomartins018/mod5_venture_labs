@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css'
-import Header from '../Components/Header/Header'
-import FormPattern from '../Components/FormPattern/FormPattern'
+import Header from '../Components/Cadastrar/Header/Header'
+import FormPattern from '../Components/Cadastrar/FormPattern/FormPattern'
 
 const Cadastrar = () => {
   return (
