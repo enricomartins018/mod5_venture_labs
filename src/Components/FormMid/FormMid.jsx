@@ -1,10 +1,25 @@
 import React from 'react'
+import S from './FormMid.module.css'
 
 const FormMid = () => {
   return (
-    <div>
-        <h1>Hello Mid</h1>
-    </div>
+    <form className={S.form}>
+      <div className={S.containerForm}>
+        <h4 className={S.titleForm}>Insira seu endereço</h4>
+        <div className={S.cep}>
+          <label>CEP</label>
+          <input className={S.inputPattern} name="CEP" id="CEP" required pattern="\d{5}-\d{3}" />
+        </div>
+        <div className={S.endereco}>
+          <label>Endereço 1</label>
+          <input className={S.inputPattern} type="text" name="name" id="" />
+        </div>
+        <div className={S.endereco}>
+          <label>Endereço 2</label>
+          <input className={S.inputPattern} type="text" name="name" id="" />
+        </div>
+      </div>
+    </form>
   )
 }
 
