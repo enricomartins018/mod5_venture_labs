@@ -5,7 +5,7 @@ const FormMid = () => {
   return (
     <form className={S.form}>
       <div className={S.containerForm}>
-        <h4 className={S.titleForm}>Insira seu endereço</h4>
+        <h4 className={S.titleForm}>Endereço</h4>
         <div className={S.cep}>
           <label>CEP</label>
           <input className={S.inputPattern} name="CEP" id="CEP" required pattern="\d{5}-\d{3}" />
