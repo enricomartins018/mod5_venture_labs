@@ -1,6 +1,6 @@
 import './App.css'
 import React from 'react'
-import Router from './router'
+import Router from './Router'
 
 function App() {
 
